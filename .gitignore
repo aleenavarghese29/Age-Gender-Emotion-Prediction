@@ -1,0 +1,23 @@
+# Ignore virtual environment folders
+.venv/
+venv/
+
+# Ignore dataset folders
+fer2013_dataset/
+utkface_dataset/
+
+# Ignore zip files
+*.zip
+
+# Ignore model files
+*.h5
+
+# Ignore cache and compiled files
+__pycache__/
+*.pyc
+
+# VS Code settings (optional)
+.vscode/
+
+# Mac system files
+.DS_Store
