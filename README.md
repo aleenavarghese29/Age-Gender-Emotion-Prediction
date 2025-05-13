@@ -12,7 +12,7 @@ This project applies deep learning techniques to predict **age**, **gender**, an
 - `predict_emotion.py` – Loads model and predicts emotion from input image.
 - `fer2013_dataset/` – Contains data for emotion recognition.
 - `utkface_dataset/` – Contains data for age and gender prediction.
-- `emotion_model.h5`, `age_gender_model.h5` – Trained model weights.
+
 
 ---
 
