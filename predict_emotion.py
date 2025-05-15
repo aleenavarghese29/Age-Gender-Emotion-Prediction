@@ -9,7 +9,7 @@ emotion_model = tf.keras.models.load_model('emotion_model.h5')
 class_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 
 # Load and preprocess image
-img_path = 'G:/kaggle/fer2013_dataset/test/sad/PrivateTest_528072.jpg'
+img_path = 'fer2013_dataset/test/happy/PrivateTest_647018.jpg'
 img = image.load_img(img_path, target_size=(48, 48), color_mode='grayscale')
 img_array = image.img_to_array(img)
 img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
